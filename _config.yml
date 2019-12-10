@@ -18,16 +18,9 @@ minimal_mistakes_skin    : "air" # "air", "aqua", "contrast", "dark", "dirt", "n
 locale                   : "en-US"
 title                    : "A code to remember"
 title_separator          : "-"
-<<<<<<< HEAD
 name                     : "Xiang ZHU"
 description              : "Infra DevOps"
 url                      : "https://www.copdips.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-=======
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
->>>>>>> upstream/master
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "copdips/copdips.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -113,22 +106,12 @@ analytics:
 
 # Site Author
 author:
-<<<<<<< HEAD
   name             : "Xiang ZHU"
   avatar           : "/image/avatar/zhuxiang-smile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Infra DevOps"
   location         : "Paris"
-=======
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
->>>>>>> upstream/master
+  email            : "xiang.zhu@outlook.com"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: mailto:xiang.zhu@outlook.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://www.copdips.com"
