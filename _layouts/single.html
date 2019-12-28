@@ -34,6 +34,7 @@ classes: wide
             {% endif %}
 
             {% if page.last_modified_at %}
+              &nbsp;|&nbsp;
               <i class="far fa-calendar-alt" aria-hidden="true"></i> Updated: {{ page.last_modified_at | date: "%B %d, %Y" }}
             {% endif %}
 
