@@ -37,11 +37,7 @@
 
     <p class="page__meta">
       {% if post.date %}
-      <i class="fas fa-calendar-alt" aria-hidden="true"></i>Created: {{ post.date | date: "%B %d, %Y" }} &nbsp;|&nbsp;
-      {% endif %}
-
-      {% if page.last_modified_at %}
-        <i class="far fa-calendar-alt" aria-hidden="true"></i> Updated: {{ page.last_modified_at | date: "%B %d, %Y" }} &nbsp;|&nbsp;
+      <i class="fas fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }} &nbsp;|&nbsp;
       {% endif %}
 
       {% if post.read_time %}
